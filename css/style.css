@@ -112,6 +112,7 @@ html, body, .container-table {
   border-radius: 12px;
   background: white;
   margin: 20px;
+  padding : 0px 25px 15px 25px;
 }
 
 .logoEquip {
@@ -125,7 +126,7 @@ html, body, .container-table {
 
 /* OUR PRICES */
 .ourPrices {
-
+  padding-bottom: 50px;
 }
 
 .ourPrices h1 {
@@ -138,18 +139,35 @@ html, body, .container-table {
 }
 
 .whateWeOffer a {
+  color : #000000;
+  font-size: 18px;
   text-decoration: none;
-  margin-left: 40px;
+  text-align: center;
 }
 
+.whateWeOffer span {
+  color : #d3d3d3;
+  padding: 0 50px 5px 50px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.whateWeOffer span:hover {
+  border-bottom: 2px solid #000000;
+}
 
 .offers {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .aPrice {
   text-align: center;
+}
+
+.offer {
+  padding: 15px 25px 15px 25px;
+  border-radius: 12px;
+  background-color: #ffffff;
 }
 
 .perDay {
@@ -166,4 +184,16 @@ html, body, .container-table {
 /* CONTACT */
 .contact {
   text-align: center;
+}
+
+.contact h1 {
+  padding-bottom: 15px;
+}
+
+.contact p {
+  padding-bottom: 30px;
+}
+
+.contact h4 {
+  font-size: 15px;
 }
