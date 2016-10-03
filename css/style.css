@@ -22,12 +22,20 @@ body {
     font-family: 'Apercu-Bold';
     background:#f8f8f8;
     color:#000000;
+    
 }
-
+.colorBlue{
+  color:#3B4859;
+}
 .fontLight {
   font-family: 'Apercu-Light';
 }
-
+.product_description{
+   font-family: "Apercu-Light";
+   padding:25px;
+   color:#3B4859;
+   height:220px;
+}
 .fontBold {
   font-family: 'Apercu-Bold';
 }
@@ -72,7 +80,7 @@ html, body, .container-table {
 .firstScreen-wrapper {
   top: 0px;
   left: 0px;
-  background-image: url("../img/spec-14.png") ;
+  background-image: url("../img/spec-14-24.png") ;
   background-size: cover;
 }
 
@@ -83,25 +91,38 @@ html, body, .container-table {
 
 .catchPhrase h1{
   font-family: 'Apercu-Light';
-  text-align: left;
-  margin-top: 180px;
-  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 34px;
   color:#ffffff;
 }
 
 .fill {
-  min-height: 100%;
-  height: 100%;
+  height:450px;
 }
-
+.line{
+      width: 100%;
+      height: 1px;
+      background: grey;
+      opacity: 0.2;
+  
+}
 /* OUR EQUIPMENTS */
+.rowMateriel{
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
 .ourMat {
   padding-bottom: 50px;
+  margin-top:-165px;
 }
 
 .ourMat h1 {
   text-align: center;
   padding-bottom: 40px;
+  color:white;
+  font-size:28px;
 }
 
 .aEquip-wrapper {
@@ -111,19 +132,43 @@ html, body, .container-table {
 .aEquip {
   border-radius: 12px;
   background: white;
-  margin: 20px;
-  padding : 0px 25px 15px 25px;
+  
+  /*padding : 0px 25px 15px 25px;*/
+  border:1px solid #E6E6E6;
 }
-
+.aEquip h4{
+  padding:10px;
+}
 .logoEquip {
   vertical-align: center;
   padding: 50px;
+  height:140px;
 }
 
 #svg1 {
-  width:60px;
+  width:130px;
 }
-
+#svg2 {
+  width:60px;
+  margin-top:-12px;
+}
+#svg3 {
+  width:150px;
+}
+.product_container{
+  height:150px;
+}
+.oculus_img{
+  width:250px;
+}
+.htc_img{
+  width:140px;
+  margin-top:20px;
+}
+.samsung_img{
+  margin-top: 10px;
+  width:190px;
+}
 /* OUR PRICES */
 .ourPrices {
   padding-bottom: 50px;
@@ -131,13 +176,20 @@ html, body, .container-table {
 
 .ourPrices h1 {
   text-align: center;
+  font-size:28px;
+  color:#3B4859;
 }
 
 .whateWeOffer {
   text-align: center;
   padding: 20px;
 }
-
+.selected{
+  border-bottom: 2px solid #3B4859;
+  color:#3B4859 !important;
+  font-family: "Apercu-Bold" !important;
+  opacity:1 !important;
+}
 .whateWeOffer a {
   color : #000000;
   font-size: 18px;
@@ -145,41 +197,65 @@ html, body, .container-table {
   text-align: center;
 }
 
+.selected2{
+  color:#3B4859;
+  font-family: "Apercu-Bold";
+}
 .whateWeOffer span {
-  color : #d3d3d3;
-  padding: 0 50px 5px 50px;
-  border-bottom: 2px solid #d3d3d3;
+  color:#3B4859;
+  padding: 0 50px 12px 50px;
+  font-family: "Apercu-Light";
+  opacity:0.5;
+
 }
 
 .whateWeOffer span:hover {
-  border-bottom: 2px solid #000000;
+  opacity:1;
 }
 
 .offers {
   max-width: 900px;
   margin: 0 auto;
+  margin-top:40px;
 }
 
 .aPrice {
   text-align: center;
+  padding:10px;
 }
 
 .offer {
-  padding: 15px 25px 15px 25px;
+  padding: 30px 15px 30px 15px;
   border-radius: 12px;
   background-color: #ffffff;
+  border: 1px solid #E6E6E6;
 }
 
 .perDay {
   font-size: 10px;
 }
-
+.aPrice h5{
+  font-size:18px;
+  height:50px;
+}
 .aPrice h5, h2 {
-  margin-bottom: 75px;
+  margin-bottom: 65px;
 }
 
 .aPrice h2 {
-  font-size: 40px;
+  font-size: 50px;
+}
+.btn-custom{
+  background:#29ABE2;
+  color: white;
+  font-size: 16px;
+  border-radius: 111px;
+  width: 180px;
+  padding: 10px; 
+}
+.btn-custom:hover{
+  opacity:0.7;
+  color:white;
 }
 /* CONTACT */
 .contact {
