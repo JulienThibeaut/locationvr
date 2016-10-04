@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Apercu-Bold";
   src: url("../font/apercu/fontie-package/Apercu-Bold.woff");
@@ -132,6 +133,7 @@ html, body, .container-table {
 .aEquip {
   border-radius: 12px;
   background: white;
+  margin-top:10px;
   
   /*padding : 0px 25px 15px 25px;*/
   border:1px solid #E6E6E6;
@@ -280,3 +282,10 @@ html, body, .container-table {
   opacity: 0.8;
   font-size:16px;
 }
+
+@media only screen and (max-width: 600px) {
+    .catchPhrase h1{
+      margin-top:20px;
+    }
+}
+
