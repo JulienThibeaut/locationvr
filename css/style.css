@@ -22,7 +22,6 @@ body {
     font-family: 'Apercu-Bold';
     background:#f8f8f8;
     color:#000000;
-    
 }
 .colorBlue{
   color:#3B4859;
@@ -105,7 +104,7 @@ html, body, .container-table {
       height: 1px;
       background: grey;
       opacity: 0.2;
-  
+
 }
 /* OUR EQUIPMENTS */
 .rowMateriel{
@@ -132,7 +131,7 @@ html, body, .container-table {
 .aEquip {
   border-radius: 12px;
   background: white;
-  
+
   /*padding : 0px 25px 15px 25px;*/
   border:1px solid #E6E6E6;
 }
@@ -184,7 +183,7 @@ html, body, .container-table {
   text-align: center;
   padding: 20px;
 }
-.selected{
+.selected-custom{
   border-bottom: 2px solid #3B4859;
   color:#3B4859 !important;
   font-family: "Apercu-Bold" !important;
@@ -251,7 +250,7 @@ html, body, .container-table {
   font-size: 16px;
   border-radius: 111px;
   width: 180px;
-  padding: 10px; 
+  padding: 10px;
 }
 .btn-custom:hover{
   opacity:0.7;
@@ -267,7 +266,8 @@ html, body, .container-table {
 }
 
 .contact p {
-  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 400px;
 }
 
 .contact h4 {

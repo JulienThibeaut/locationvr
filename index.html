@@ -25,8 +25,8 @@
            </div>
            <div class="collapse navbar-collapse" id="myNavbar">
              <ul class="nav navbar-nav navbar-right whitePol">
-               <li><a href="#services">Notre matériel</a></li>
-               <li><a href="#us">Nos tarifs</a></li>
+               <li><a href="#materiel">Notre matériel</a></li>
+               <li><a href="#prices">Nos tarifs</a></li>
                <li><a href="#contact">Contact</a></li>
              </ul>
            </div>
@@ -40,7 +40,7 @@
        </div>
      </div>
 
- <div class="container-fluid ourMat">
+ <div class="container-fluid ourMat" id="materiel">
    <h1>Notre matériel</h1>
    <div class="row rowMateriel">
      <div class="col-md-4 aEquip-wrapper">
@@ -55,7 +55,7 @@
            Ce casque qui a lancé la « révolution virtuelle » vous immerge dans des univers en trois dimensions détaillés. Admirez, explorez et faites l'expérience de mondes dépassant l'imagination.
          </p>
          <div class="line"></div>
-         <h4 class="colorBlue">En savoir plus</h4>
+         <h4 class="colorBlue"><a target="_blank" href="https://www.oculus.com/">En savoir plus</a></h4>
        </div>
      </div>
      <div class="col-md-4 aEquip-wrapper">
@@ -70,7 +70,7 @@
            Plongez dans des environnements « grandeur nature » grâce à ce casque de dernière génération qui a participé à redéfinir radicalement le paysage du divertissement digital. La magie de la présence change tout : déplacez-vous et interagissez avec les mondes virtuels. Vous n'avez jamais connu un tel degré d'immersion.
          </p>
           <div class="line"></div>
-         <h4 class="colorBlue">En savoir plus</h4>
+         <h4 class="colorBlue"><a target="_blank" href="https://www.vive.com/fr/">En savoir plus</a></h4>
        </div>
      </div>
      <div class="col-md-4 aEquip-wrapper">
@@ -85,58 +85,100 @@
            Grâce au Gear VR, votre smartphone peut vous transporter dans un autre monde. C’est la réalité virtuelle, en tout lieu, à tout moment. Il vous suffit d’insérer votre smartphone dans son emplacement à l’avant, et de vous laisser porter dans le nouveau monde qui vous entoure.
          </p>
           <div class="line"></div>
-         <h4 class="colorBlue">En savoir plus</h4>
+          <h4 class="colorBlue"><a target="_blank" href="http://www.samsung.com/fr/galaxynote4/gear-vr/">En savoir plus</a></h4>
        </div>
      </div>
    </div>
  </div>
 
-<div class="container-fluid ourPrices">
+<div class="container-fluid ourPrices" id="prices">
   <h1>Nos tarifs</h1>
   <div class="whateWeOffer">
-  <span class="selected"><a href="#" >HTC Vive</a></span>
-  <span><a href="#">Oculus rift</a></span>
-  <span><a href="#">Samsung gear</a></span>
+  <span class="selected-custom">
+    <a href="#tab2" data-toggle="tab">HTC Vive</a></span>
+  <span><a href="#tab3" data-toggle="tab">Oculus rift</a></span>
+  <span><a href="#tab4" data-toggle="tab">Samsung gear</a></span>
   </div>
-  <div class="offers">
-    <div class="row">
+  <div class="offers tab-content">
+    <div class="row tab-pane fade in active" id="tab2">
       <div class="col-sm-4 aPrice">
         <div class="offer">
         <h5>HTC Vive seul</h5>
         <h2>100 €<span class="perDay">/jours</span></h2>
-        
-        <button class="btn btn-custom" type="button">Louez maintenant</button>
         </div>
       </div>
       <div class="col-sm-4 aPrice">
         <div class="offer">
           <h5>HTC Vive + Ordinateur</h5>
-          <h2>350 €<span class="perDay">/jours</span></h2>
-          
-          <button class="btn btn-custom" type="button">Louez maintenant</button>
+          <h2>200 €<span class="perDay">/jours</span></h2>
         </div>
       </div>
       <div class="col-sm-4 aPrice">
         <div class="offer">
           <h5>HTC Vive + Ordinateur + Technicien</h5>
-          <h2>650 €<span class="perDay">/jours</span></h2>
-          
-          <button class="btn btn-custom" type="button">Louez maintenant</button>
+          <h2>350 €<span class="perDay">/jours</span></h2>
         </div>
       </div>
     </div>
+
+    <div class="row tab-pane fade " id="tab3">
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+        <h5>Oculus seul</h5>
+        <h2>70 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+          <h5>Oculus + Ordinateur</h5>
+          <h2>150 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+          <h5>Oculus + Ordinateur + Technicien</h5>
+          <h2>250 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row tab-pane fade " id="tab4">
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+        <h5>Samsung Gear</h5>
+        <h2>30 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+          <h5>Samsung Gear + Smartphone</h5>
+          <h2>100 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+      <div class="col-sm-4 aPrice">
+        <div class="offer">
+          <h5>Samsung Gear + Smartphone + Technicien</h5>
+          <h2>200 €<span class="perDay">/jours</span></h2>
+        </div>
+      </div>
+    </div>
+
   </div>
   </div>
 </div>
 
-<div class="container-fluid contact">
+<div class="container-fluid contact" id="contact">
   <h1>Contact</h1>
-  <p>
-    N'hésitez pas à nous contacter pour blablablabla
+  <p class="fontLight">
+    Nous sommes heureux de répondre à n'importe quelle question que vous vous pausez.
   </p>
-  <h4>Par téléphone : 06 66 66 66 66</h4>
-  <h4>Par mail : contact@locationnantesvr.fr</h4>
+  <p class="fontLight">
+    Envoyez-nous un mail ou appelez-nous.
+  </p>
+  <h4>Par téléphone : <span class="fontLight">06 66 66 66 66</span></h4>
+  <h4>Par mail : <span class="fontLight">contact@locationnantesvr.fr</span></h4>
 </div>
 
+<script src="script/onclick.js" charset="utf-8"></script>
 </body>
 </html>
